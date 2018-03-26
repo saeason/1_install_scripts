@@ -1,2 +1,3 @@
 # install_scripts
-i3wm install scripts
+
+Scripts to install i3-gaps window manager and lightdm login manager to a bare Arch install.
