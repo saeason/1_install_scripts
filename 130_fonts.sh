@@ -4,19 +4,19 @@ set -e
 
 echo ".....installing fonts"
 
-sudo pacman -S --nonconfirm --needed awesome-terminal-fonts
-sudo pacman -S --nonconfirm --needed adobe-source-sans-pro-fonts
-sudo pacman -S --nonconfirm --needed cantarell-fonts
-sudo pacman -S --nonconfirm --needed noto-fonts
-sudo pacman -S --nonconfirm --needed terminus-font
-sudo pacman -S --nonconfirm --needed ttf-bitstream-vera
-sudo pacman -S --nonconfirm --needed ttf-dejavu
-sudo pacman -S --nonconfirm --needed ttf-droid
-sudo pacman -S --nonconfirm --needed ttf-hack
-sudo pacman -S --nonconfirm --needed ttf-inconsolata
-sudo pacman -S --nonconfirm --needed ttf-liberation
-sudo pacman -S --nonconfirm --needed ttf-roboto
-sudo pacman -S --nonconfirm --needed ttf-ubuntu-font-family
+sudo pacman -S --noconfirm --needed awesome-terminal-fonts
+sudo pacman -S --noconfirm --needed adobe-source-sans-pro-fonts
+sudo pacman -S --noconfirm --needed cantarell-fonts
+sudo pacman -S --noconfirm --needed noto-fonts
+sudo pacman -S --noconfirm --needed terminus-font
+sudo pacman -S --noconfirm --needed ttf-bitstream-vera
+sudo pacman -S --noconfirm --needed ttf-dejavu
+sudo pacman -S --noconfirm --needed ttf-droid
+sudo pacman -S --noconfirm --needed ttf-hack
+sudo pacman -S --noconfirm --needed ttf-inconsolata
+sudo pacman -S --noconfirm --needed ttf-liberation
+sudo pacman -S --noconfirm --needed ttf-roboto
+sudo pacman -S --noconfirm --needed ttf-ubuntu-font-family
 
 yaourt -S ttf-hack-powerline-git --noconfirm --needed
 
