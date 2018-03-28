@@ -16,8 +16,6 @@ sudo systemctl start bluetooth.service
 
 sudo sed -i 's/'#AutoEnable=false'/'AutoEnable=true'/g' /etc/bluetooth/main.conf
 
-echo "reboot system, change to a2dp with the bluetooth status icon..."
-
 
 echo ":::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::"
 echo "::: bluetooth software installed. :::::::::::::::::::::::::::::::::::::::"
