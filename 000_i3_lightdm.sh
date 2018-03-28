@@ -4,7 +4,8 @@ set -e
 
 echo ".....installing i3WM environment and lightdm login manager"
 
-sudo pacman -Syyu 
+sudo pacman -Syyu # this solved all the previous installation problems
+
 sudo pacman -S --noconfirm --needed i3-gaps i3status i3blocks dmenu rxvt-unicode firefox
 
 sudo pacman -S --noconfirm --needed lightdm lightdm-gtk-greeter lightdm-gtk-greeter-settings
