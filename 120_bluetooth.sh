@@ -2,7 +2,7 @@
 set -e
 # set -e causes the shell to exit if any subcommand or pipeline returns a non-zero status.
 
-echo ".....bluetooth software"
+echo ".....installing bluetooth software"
 
 sudo pacman -S --noconfirm --needed pulseaudio-bluetooth
 sudo pacman -S --noconfirm --needed bluez
