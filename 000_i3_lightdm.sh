@@ -8,7 +8,7 @@ sudo pacman -S --noconfirm --needed i3-gaps i3status i3blocks dmenu rxvt-unicode
 
 sudo pacman -S --noconfirm --needed lightdm lightdm-gtk-greeter lightdm-gtk-greeter-settings
 sudo systemctl enable lightdm.service -f
-sudo systmectl set-default graphical.target
+sudo systemctl set-default graphical.target
 
 
 echo ":::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::"
