@@ -2,13 +2,24 @@
 set -e
 # set -e causes the shell to exit if any subcommand or pipeline returns a non-zero status.
 
-echo ".....installing i3WM environment and lightdm login manager"
+echo ".....bluetooth software"
 
-sudo pacman -S i3-gaps i3status i3blocks dmenu rxvt-unicode 
+sudo pacman -S --noconfirm --needed pulseaudio-bluetooth
+sudo pacman -S --noconfirm --needed bluez
+sudo pacman -S --noconfirm --needed bluez-libs
+sudo pacman -S --noconfirm --needed bluez-utils
+sudo pacman -S --noconfirm --needed bluez-firmware
+sudo pacman -S --noconfirm --needed blueberry
 
-sudo pacman -S lightdm lightdm-gtk-greeter lightdm-gtk-greeter-settings
-sudo systemctl enable lightdm.service
+sudo systemctl enable bluetooth.service
+sudo systemctl start bluetooth.service
+
+sudo sed -i 's/'#AutoEnable=false'/'AutoEnable=true'/g' /etc/bluetooth/main.conf
+
+echo "reboot system, change to a2dp with the bluetooth status icon..."
+
 
 echo ":::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::"
-echo "::: i3 and lightdm are now instlaled. :::::::::::::::::::::::::::::::::::: "
+echo "::: bluetooth software installed. :::::::::::::::::::::::::::::::::::::::"
+echo "::: reboot system, change to a2dp with the bluetooth status icon. :::::::"
 echo ":::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::"
