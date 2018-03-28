@@ -4,6 +4,7 @@ set -e
 
 echo ".....installing i3WM environment and lightdm login manager"
 
+sudo pacman -Syyu 
 sudo pacman -S --noconfirm --needed i3-gaps i3status i3blocks dmenu rxvt-unicode 
 
 sudo pacman -S --noconfirm --needed lightdm lightdm-gtk-greeter lightdm-gtk-greeter-settings
