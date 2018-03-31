@@ -2,17 +2,12 @@
 set -e
 # set -e causes the shell to exit if any subcommand or pipeline returns a non-zero status.
 
-echo ".....installing i3WM environment and lightdm login manager"
+echo ".....sym-linking .i3 to the home folder"
+sleep 1
 
-sudo pacman -Syyu # this solved all the previous installation problems
-
-sudo pacman -S --noconfirm --needed i3-gaps i3status i3blocks dmenu rxvt-unicode firefox
-
-sudo pacman -S --noconfirm --needed lightdm lightdm-gtk-greeter lightdm-gtk-greeter-settings
-sudo systemctl enable lightdm.service -f
-sudo systemctl set-default graphical.target
-
+cd $HOME && ln -s ~/Dropbox/Sync/.zshrc .
 
 echo ":::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::"
-echo "::: i3 and lightdm are now instlaled. :::::::::::::::::::::::::::::::::::: "
+echo "::: .i3 folder sym-linked to the home folder. :::::::::::::::::::::::::::: "
 echo ":::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::"
+sleep 1

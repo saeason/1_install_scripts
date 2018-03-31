@@ -18,10 +18,7 @@ sudo pacman -S --noconfirm --needed meld
 sudo pacman -S --noconfirm --needed git
 
 echo "Installing category Graphics"
-#sudo pacman -S --noconfirm --needed gimp
-#sudo pacman -S --noconfirm --needed darktable
 sudo pacman -S --noconfirm --needed gpick
-sudo pacman -S --noconfirm --needed ristretto
 sudo pacman -S --noconfirm --needed scrot
 sudo pacman -S --noconfirm --needed feh
 
@@ -58,7 +55,6 @@ sudo pacman -S --noconfirm --needed lm_sensors
 sudo pacman -S --noconfirm --needed lsb-release
 sudo pacman -S --noconfirm --needed lxappearance
 sudo pacman -S --noconfirm --needed lxrandr # Monitor configuration tool (part of LXDE)
-sudo pacman -S --noconfirm --needed mlocate
 sudo pacman -S --noconfirm --needed net-tools
 #sudo pacman -S --noconfirm --needed nitrogen
 sudo pacman -S --noconfirm --needed polkit-gnome
@@ -74,6 +70,7 @@ sudo pacman -S --noconfirm --needed thunar
 sudo pacman -S --noconfirm --needed thunar-archive-plugin
 sudo pacman -S --noconfirm --needed thunar-volman
 sudo pacman -S --noconfirm --needed tmux
+sudo pacman -S --noconfirm --needed vnstat
 sudo pacman -S --noconfirm --needed wget
 #sudo pacman -S --noconfirm --needed unclutter # hide the mouse cursor
 sudo pacman -S --noconfirm --needed xfce4-clipman-plugin
@@ -81,6 +78,14 @@ sudo pacman -S --noconfirm --needed xfce4-power-manager
 sudo pacman -S --noconfirm --needed xfce4-screenshooter
 sudo pacman -S --noconfirm --needed xorg-xrandr
 sudo pacman -S --noconfirm --needed xorg-xkill
+sudo pacman -S --noconfirm --needed zsh
+
+# gui packages
+sudo pacman -S --noconfirm --needed deadbeef	# itunes type music player
+sudo pacman -S --noconfirm --needed openshot	# imovie type video editor
+sudo pacman -S --noconfirm --needed ristretto	# iphoto type image organiser
+sudo pacman -S --noconfirm --needed gimp		# Photoshop type application
+sudo pacman -S --noconfirm --needed darktable	# Lightroom type application
 
 
 ###############################################################################################

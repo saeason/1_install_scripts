@@ -5,15 +5,10 @@
 # https://aur.archlinux.org/packages/
 
 
-sh AUR/install-conky-lua-archers-v*.sh
-sh AUR/install-cool-retro-term-v*.sh
-sh AUR/install-mintstick-git-v*.sh
 sh AUR/install-temps-v*.sh
 
 #sh AUR/install-brackets-v*.sh
-sh AUR/install-sublime-text-v*.sh
 
-sh AUR/install-dropbox-v*.sh
 sh AUR/install-insync-v*.sh
 
 sh AUR/install-gradio-v*.sh

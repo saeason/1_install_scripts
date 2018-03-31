@@ -11,9 +11,6 @@ sh AUR/install-cool-retro-term-v*.sh
 echo "Installing category Development"
 sh AUR/install-sublime-text-v*.sh
 
-echo "Installing category Internet"
-sh AUR/install-dropbox-v*.sh
-
 echo "Installing category System"
 sh AUR/install-arc-gtk-theme-git-v*.sh
 sh AUR/install-neofetch-v*.sh
