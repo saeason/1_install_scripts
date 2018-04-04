@@ -16,3 +16,8 @@ cd /home/scott/Dropbox/Sync/1_install_scripts
 ./120_bluetooth.sh
 ./130_fonts.sh
 ./140_sound.sh
+
+cd /home/scott/Dropbox/Sync/1_install_scripts/symlinks
+
+./001_i3_symlink.sh
+./002_ohmyzsh_symlink.sh

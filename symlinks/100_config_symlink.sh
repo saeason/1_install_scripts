@@ -4,15 +4,29 @@ set -e
 
 echo
 echo ":::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::"
-echo "Linking config files and directories to their relevant locations."
+echo "Symlinking .zshrc from Dropbox to the /home directory."
 echo ":::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::"
 sleep 2
 
-cd ~/Dropbox/Sync/1_install_scripts/symlinks
-./101_i3_symlink.sh
+if [ -f ~/.zshrc ]; then
+	rm -f ~/.zshrc
+fi
+
+if [ ! -e ~/.zscrc ]; then  
+	cd $HOME && ln -s ~/Dropbox/Sync/.zshrc .
+fi
+
+if [ -f ~/.zshrc.pre-oh-my-zsh ]; then
+	rm -f ~/.zshrc.pre-oh-my-zsh 
+fi
+
+#cd $HOME && ln -s ~/Dropbox/Sync/.zshrc .
+#source ~/.zshrc
+#sudo sed -i 's/ZSH_THEME=\"robbyrussell\"/ZSH_THEME=\"nanotech\"/g' ~/.zshrc
 
 echo
 echo ":::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::"
-echo "Configuration set up, reload i3 for changes to take effect!"
+echo ".zshrc files successfully linked to the /home directory."
 echo ":::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::"
 echo
+

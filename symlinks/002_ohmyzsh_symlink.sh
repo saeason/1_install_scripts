@@ -4,17 +4,19 @@ set -e
 
 echo
 echo ":::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::"
-echo "Linking config files and directories to their relevant locations."
+echo "Installing oh-my-zsh and changing shell to zsh."
 echo ":::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::"
 sleep 2
 
-cd ~/Dropbox/Sync/1_install_scripts/symlinks
-./001_i3_symlink.sh
-./002_ohmyzsh_symlink.sh
+sudo pacman -Sy --noconfirm --needed zsh wget
+sudo chsh -s /usr/bin/zsh 
 
+sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
+
+source ~/.zshrc
 
 echo
 echo ":::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::"
-echo "Configuration set up, reload i3 for changes to take effect!"
+echo "oh-my-zsh successfully installed."
 echo ":::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::"
 echo
