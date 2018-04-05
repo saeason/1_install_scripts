@@ -1,0 +1,9 @@
+#!/bin/bash
+set -e
+
+# software from AUR (Arch User Repositories)
+# https://aur.archlinux.org/packages/
+
+echo "Installing category Accessories"
+
+sh AUR/install-oblogout-blurlock-v*.sh
