@@ -30,4 +30,4 @@ echo
 cd /home/scott/Dropbox/Sync/1_install_scripts
 ./101_create_personal_folders.sh
 ./102_fonts.sh
-./301_use_all_cores.sh
+./401_use_all_cores.sh

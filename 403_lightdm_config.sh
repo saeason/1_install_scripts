@@ -4,7 +4,7 @@ set -e
 
 echo
 echo ":::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::"
-echo "::: Configuring lightdm. ::::::::::::::::::::::::::::::::::::::::::::::::"
+echo "::: Installing programs for lightdm configuration. ::::::::::::::::::::::"
 echo ":::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::"
 echo
 sleep 2
@@ -12,12 +12,14 @@ sleep 2
 sudo pacman -Sy --noconfirm --needed lxappearance
 sudo pacman -Sy --noconfirm --needed polkit-gnome
 
+yaourt -S papirus-icon-theme
+
 echo
 echo ":::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::"
-echo "::: Copying themes, this may take a while. ::::::::::::::::::::::::::::::"
+echo "::: Copying themes and wallpapers, this may take a while. :::::::::::::::"
 echo ":::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::"
 echo
-Sleep 2
+sleep 2
 
 
 sudo cp -r ~/Dropbox/Sync/5_themes/* /usr/share/themes/

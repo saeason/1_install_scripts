@@ -21,9 +21,7 @@ if [ -f ~/.zshrc.pre-oh-my-zsh ]; then
 	rm -f ~/.zshrc.pre-oh-my-zsh 
 fi
 
-#cd $HOME && ln -s ~/Dropbox/Sync/.zshrc .
-#source ~/.zshrc
-#sudo sed -i 's/ZSH_THEME=\"robbyrussell\"/ZSH_THEME=\"nanotech\"/g' ~/.zshrc
+#sudo sed -i 's/ZSH_THEME=\"robbyrussell\"/ZSH_THEME=\"random\"/g' ~/.zshrc
 
 echo
 echo ":::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::"
