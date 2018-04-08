@@ -11,20 +11,18 @@ git add --all .
 
 # Give a comment to the commit if you want
 echo ":::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::"
-echo "::: Write commit comment ::::::::::::::::::::::::::::::::::::::::::::::::"
+echo "::: Write commit comment: :::::::::::::::::::::::::::::::::::::::::::::::"
 echo ":::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::"
 
 read input
 
 # Committing to the local repository with a message containing the time details and commit text
-
 git commit -m "$input"
 
 # Push the local files to github
-
 git push -u origin master
 
 
 echo ":::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::"
-echo "::: Git push done :::::::::::::::::::::::::::::::::::::::::::::::::::::::"
+echo "::: Git push done. ::::::::::::::::::::::::::::::::::::::::::::::::::::::"
 echo ":::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::"
