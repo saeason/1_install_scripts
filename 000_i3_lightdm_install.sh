@@ -18,6 +18,6 @@ sudo systemctl set-default graphical.target
 
 echo
 echo ":::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::"
-echo "::: i3 is now instlaled, now RESTART. :::::::::::::::::::::::::::::::::::"
+echo "::: i3 is instlaled, now RESTART and install and sync Dropbox.  :::::::::"
 echo ":::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::"
 echo

@@ -10,7 +10,7 @@ echo
 sleep 2
 
 cd $HOME
-ln -s /home/scott/Dropbox/Sync/.Xresources /home/scott
+ln -s /home/scott/Dropbox/Sync/.Xresources /home/scott/
 
 echo
 echo ":::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::"
@@ -19,7 +19,7 @@ echo ":::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::"
 echo
 sleep 2
 
-xrdb -load /home/scott/.Xresources
+xrdb -load ~/.Xresources
 
 echo
 echo ":::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::"
