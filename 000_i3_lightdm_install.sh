@@ -18,6 +18,6 @@ sudo systemctl set-default graphical.target
 
 echo
 echo ":::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::"
-echo "::: i3 is now instlaled, RESTART then install the other scripts :::::::::"
+echo "::: i3 is now instlaled, run script 001 then RESTART. :::::::::::::::::::"
 echo ":::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::"
 echo
