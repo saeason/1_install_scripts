@@ -22,7 +22,10 @@ sudo pacman -S --noconfirm --needed ttf-inconsolata
 sudo pacman -S --noconfirm --needed ttf-liberation
 sudo pacman -S --noconfirm --needed ttf-roboto
 sudo pacman -S --noconfirm --needed ttf-ubuntu-font-family
-yaourt -S ttf-hack-powerline-git --noconfirm --needed
+yaourt -S --noconfirm --needed  ttf-hack-powerline-git
+
+#yaourt -S --noconfirm --needed  ttf-font-awesome
+#yaourt -S --noconfirm --needed  ttf-mac-fonts
 
 echo
 echo ":::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::"
