@@ -72,6 +72,7 @@ sudo pacman -S --noconfirm --needed thunar
 sudo pacman -S --noconfirm --needed thunar-archive-plugin
 sudo pacman -S --noconfirm --needed thunar-volman
 sudo pacman -S --noconfirm --needed tmux
+sudo pacman -S --noconfirm --needed tree
 sudo pacman -S --noconfirm --needed vnstat
 sudo pacman -S --noconfirm --needed wget
 #sudo pacman -S --noconfirm --needed unclutter # hide the mouse cursor
