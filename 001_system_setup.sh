@@ -28,6 +28,12 @@ echo ":::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::"
 echo
 
 cd /home/scott/Dropbox/Sync/1_install_scripts
+
+./004_zshrc_config_symlink.sh
+./005_polybar_rofi_compton.sh
+./006_vim.sh
 ./101_create_personal_folders.sh
 ./102_fonts.sh
+./140_sound.sh
 ./401_use_all_cores.sh
+./402_fix_firefox_dark_themes.sh
