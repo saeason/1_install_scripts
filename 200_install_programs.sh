@@ -21,6 +21,7 @@ echo "Installing category Graphics"
 sudo pacman -S --noconfirm --needed gpick
 sudo pacman -S --noconfirm --needed scrot
 sudo pacman -S --noconfirm --needed feh
+sudo pacman -S --noconfirm --needed gcolor2
 
 echo "Installing category Internet"
 #sudo pacman -S --noconfirm --needed firefox

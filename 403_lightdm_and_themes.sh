@@ -11,8 +11,12 @@ sleep 2
 
 sudo pacman -Sy --noconfirm --needed lxappearance
 sudo pacman -Sy --noconfirm --needed polkit-gnome
+sudo pacman -Sy --noconfirm --needed qt5-styleplugins
+sudo pacman -Sy --noconfirm --needed qt5ct
 
-yaourt -S papirus-icon-theme
+yaourt -S --noconfirm --needed papirus-icon-theme
+yaourt -S --noconfirm --needed damadamas-icon-theme-git
+yaourt -S --noconfirm --needed gtk-theme-numix-solarized
 
 echo
 echo ":::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::"
@@ -27,6 +31,8 @@ sudo cp -r ~/Dropbox/Sync/5_themes/* /usr/share/themes/
 sudo mkdir /usr/share/wallpapers
 sudo cp -r ~/Dropbox/Wallpapers/* /usr/share/wallpapers/
 
+cd $HOME && ln -s ~/Dropbox/Sync/.xinitrc .
+
 echo
 echo ":::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::"
 echo "::: Use lightdm greeter settings to configure. ::::::::::::::::::::::::::"
@@ -35,12 +41,12 @@ echo
 
 # Appearance / Theme			/ Arc-Numix-Dark
 # Appearance / Icons			/ Papirus-Dark
-# Appearance / Font				/ Sans Regular 10 
+# Appearance / Font			/ Sans Regular 10 
 # Appearance / Image			/ /usr/share/wallpapers/earth-view...
 # Appearance / Colour			/ Black
-# Appearance / Use wallpaper	/ Yes
+# Appearance / Use wallpaper		/ Yes
 # Appearance / Use image		/ Yes
-# Appearance / Icon				/ /usr/share/icons/media-floppy...
+# Appearance / Icon			/ /usr/share/icons/Papirus/48x48
 
 # Clock format: %a,%H:%M
 
@@ -62,6 +68,6 @@ echo
 # |O     O     O|
 # ---------------
 # Horizontal:	26
-# Vertical:		37
+# Vertical:	37
 
 # Misc / Default settings

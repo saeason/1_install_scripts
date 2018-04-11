@@ -10,16 +10,13 @@ echo ":::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::"
 echo 
 sleep 2
 
-cp -r settings/firefox/chrome/ ~/.mozilla/firefox/*.default
+cd $HOME/.mozilla/firefox/*.default/
+mkdir chrome
+ln -s ~/Dropbox/Sync/userContent.css ~/.mozilla/firefox/*.default/chrome/
+
 
 echo
 echo ":::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::"
-echo "::: Restart firefox to see the effect. ::::::::::::::::::::::::::::::::::"
+echo "::: Restart firefox for changes to take effect. :::::::::::::::::::::::::"
 echo ":::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::"
 echo
-sleep 2
-
-echo
-echo ":::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::"
-echo "::: Firefox  settings installed. ::::::::::::::::::::::::::::::::::::::::"
-echo ":::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::"
