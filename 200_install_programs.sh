@@ -13,7 +13,7 @@ sudo pacman -S --noconfirm --needed galculator
 #sudo pacman -S --noconfirm --needed gnome-screenshot
 
 echo "Installing category Development"
-sudo pacman -S --noconfirm --needed atom
+#sudo pacman -S --noconfirm --needed atom
 sudo pacman -S --noconfirm --needed meld
 #sudo pacman -S --noconfirm --needed git
 
@@ -37,7 +37,7 @@ sudo pacman -S --noconfirm --needed evince
 
 echo "Installing category System"
 sudo pacman -S --noconfirm --needed catfish # gui file seacher
-sudo pacman -S --noconfirm --needed compton
+#sudo pacman -S --noconfirm --needed compton
 sudo pacman -S --noconfirm --needed curl
 sudo pacman -S --noconfirm --needed calcurse
 #sudo pacman -S --noconfirm --needed dmidecode
@@ -65,7 +65,6 @@ sudo pacman -S --noconfirm --needed ranger
 #sudo pacman -S --noconfirm --needed rofi
 sudo pacman -S --noconfirm --needed rsync
 sudo pacman -S --noconfirm --needed screenfetch
-sudo pacman -S --noconfirm --needed scrot
 sudo pacman -S --noconfirm --needed sysstat # collection of resource monitors
 sudo pacman -S --noconfirm --needed task # Taskwarrior
 sudo pacman -S --noconfirm --needed termite
@@ -75,14 +74,13 @@ sudo pacman -S --noconfirm --needed thunar-volman
 sudo pacman -S --noconfirm --needed tmux
 sudo pacman -S --noconfirm --needed tree
 sudo pacman -S --noconfirm --needed vnstat
-sudo pacman -S --noconfirm --needed wget
+#sudo pacman -S --noconfirm --needed wget
 #sudo pacman -S --noconfirm --needed unclutter # hide the mouse cursor
 sudo pacman -S --noconfirm --needed xfce4-clipman-plugin
 sudo pacman -S --noconfirm --needed xfce4-power-manager
 sudo pacman -S --noconfirm --needed xfce4-screenshooter
 sudo pacman -S --noconfirm --needed xorg-xrandr
 sudo pacman -S --noconfirm --needed xorg-xkill
-sudo pacman -S --noconfirm --needed zsh
 
 # gui packages
 sudo pacman -S --noconfirm --needed deadbeef	# itunes type music player
@@ -100,6 +98,6 @@ sudo pacman -S --noconfirm --needed unace unrar zip unzip sharutils uudeview arj
 ###############################################################################################
 
 
-echo "################################################################"
-echo "#### Software from standard Arch Linux Repo installed  #########"
-echo "################################################################"
+echo ":::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::"
+echo "::: Software from standard Arch Linux Repo installed. :::::::::::::::::::"
+echo ":::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::"
