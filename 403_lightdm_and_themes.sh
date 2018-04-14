@@ -9,10 +9,12 @@ echo ":::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::"
 echo
 sleep 2
 
-sudo pacman -Sy --noconfirm --needed lxappearance
-sudo pacman -Sy --noconfirm --needed polkit-gnome
-sudo pacman -Sy --noconfirm --needed qt5-styleplugins
-sudo pacman -Sy --noconfirm --needed qt5ct
+sudo pacman -Sy
+
+sudo pacman -S --noconfirm --needed lxappearance
+sudo pacman -S --noconfirm --needed polkit-gnome
+sudo pacman -S --noconfirm --needed qt5-styleplugins
+sudo pacman -S --noconfirm --needed qt5ct
 
 yaourt -S --noconfirm --needed papirus-icon-theme
 yaourt -S --noconfirm --needed damadamas-icon-theme-git
@@ -39,6 +41,8 @@ echo "::: Use lightdm greeter settings to configure. ::::::::::::::::::::::::::"
 echo ":::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::"
 echo
 
+# change theme with lxappearance
+ 
 # Appearance / Theme			/ Arc-Numix-Dark
 # Appearance / Icons			/ Papirus-Dark
 # Appearance / Font				/ Sans Regular 10 

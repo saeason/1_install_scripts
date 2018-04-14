@@ -33,7 +33,8 @@ case $numberofcores in
 
 esac
 
+echo
 echo ":::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::"
 echo "::: All cores will be used during building and compression. :::::::::::::" 
 echo ":::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::"
-
+echo

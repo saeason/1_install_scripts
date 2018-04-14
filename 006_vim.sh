@@ -25,10 +25,13 @@ if [ ! -e ~/.vim ]; then
 	ln -s ~/Dropbox/Sync/.vim /home/scott/
 fi
 
-# the following 2 line install the instant-markdown dependencies
-sudo pacman -Sy --noconfirm --needed nodejs
-sudo pacman -Sy --noconfirm --needed npm
-sudo pacman -Sy --noconfirm --needed xdg-utils
+# the following lines install the instant-markdown dependencies
+
+sudo pacman -Sy
+
+sudo pacman -S --noconfirm --needed nodejs
+sudo pacman -S --noconfirm --needed npm
+sudo pacman -S --noconfirm --needed xdg-utils
 
 sudo npm -g install instant-markdown-d
 

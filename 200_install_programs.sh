@@ -7,6 +7,8 @@ set -e
 # give tmp folder extra gb in order not to run out of disk space while installing software.
 #sudo mount -o remount,size=5G,noatime /tmp
 
+sudo pacman -Sy
+
 echo "Installing category Accessories"
 sudo pacman -S --noconfirm --needed cmatrix
 sudo pacman -S --noconfirm --needed galculator
@@ -97,7 +99,8 @@ sudo pacman -S --noconfirm --needed unace unrar zip unzip sharutils uudeview arj
 
 ###############################################################################################
 
-
+echo
 echo ":::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::"
 echo "::: Software from standard Arch Linux Repo installed. :::::::::::::::::::"
 echo ":::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::"
+echo

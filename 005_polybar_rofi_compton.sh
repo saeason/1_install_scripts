@@ -9,10 +9,12 @@ echo ":::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::"
 echo
 sleep 2
 
-sudo pacman -Sy --noconfirm --needed compton
-sudo pacman -Sy --noconfirm --needed rofi
+sudo pacman -Sy
 
-yaourt -S --noconfirm --needed polybar
+sudo pacman -S --noconfirm --needed compton
+sudo pacman -S --noconfirm --needed rofi
+
+yaourt --noconfirm --needed polybar
 
 ln -s ~/Dropbox/Sync/.calcurse /home/scott/
 ln -s ~/Dropbox/Sync/.tmux.conf /home/scott/

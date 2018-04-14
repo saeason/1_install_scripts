@@ -8,6 +8,8 @@ echo ":::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::"
 echo
 sleep 2
 
+sudo pacman -Sy
+
 sudo pacman -S --noconfirm --needed alsa-firmware
 sudo pacman -S --noconfirm --needed alsa-lib
 sudo pacman -S --noconfirm --needed alsa-plugins

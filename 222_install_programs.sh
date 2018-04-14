@@ -7,6 +7,8 @@ set -e
 # give tmp folder extra gb in order not to run out of disk space while installing software.
 #sudo mount -o remount,size=5G,noatime /tmp
 
+sudo pacman -Sy
+
 echo "Installing category Accessories"
 sudo pacman -S --noconfirm --needed cmatrix
 sudo pacman -S --noconfirm --needed galculator
@@ -66,15 +68,19 @@ sudo pacman -S --noconfirm --needed ristretto	# iphoto type image organiser
 sudo pacman -S --noconfirm --needed gimp		# Photoshop type application
 sudo pacman -S --noconfirm --needed darktable	# Lightroom type application
 
-
-###############################################################################################
-
 # installation of zippers and unzippers
-sudo pacman -S --noconfirm --needed unace unrar zip unzip sharutils uudeview arj cabextract file-roller
+sudo pacman -S --noconfirm --needed arj
+sudo pacman -S --noconfirm --needed cabextract
+sudo pacman -S --noconfirm --needed file-roller
+sudo pacman -S --noconfirm --needed sharutils
+sudo pacman -S --noconfirm --needed unace
+sudo pacman -S --noconfirm --needed unrar
+sudo pacman -S --noconfirm --needed unzip
+sudo pacman -S --noconfirm --needed uudeview
+sudo pacman -S --noconfirm --needed zip
 
-###############################################################################################
-
-
+echo
 echo ":::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::"
 echo "::: Software from standard Arch Linux Repo installed. :::::::::::::::::::"
 echo ":::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::"
+echo

@@ -8,9 +8,11 @@ echo "::: Installing oh-my-zsh and changing shell to zsh. :::::::::::::::::::::"
 echo ":::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::"
 sleep 2
 
-sudo pacman -Sy --noconfirm --needed curl
-sudo pacman -Sy --noconfirm --needed wget
-sudo pacman -Sy --noconfirm --needed zsh
+sudo pacman -Sy
+
+sudo pacman -S --noconfirm --needed curl
+sudo pacman -S --noconfirm --needed wget
+sudo pacman -S --noconfirm --needed zsh
 
 sudo chsh -s /usr/bin/zsh 
 
