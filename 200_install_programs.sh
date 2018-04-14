@@ -79,8 +79,8 @@ sudo pacman -S --noconfirm --needed vnstat
 sudo pacman -S --noconfirm --needed xfce4-clipman-plugin
 sudo pacman -S --noconfirm --needed xfce4-power-manager
 sudo pacman -S --noconfirm --needed xfce4-screenshooter
-sudo pacman -S --noconfirm --needed xorg-xrandr
-sudo pacman -S --noconfirm --needed xorg-xkill
+#sudo pacman -S --noconfirm --needed xorg-xrandr
+#sudo pacman -S --noconfirm --needed xorg-xkill
 
 # gui packages
 sudo pacman -S --noconfirm --needed deadbeef	# itunes type music player

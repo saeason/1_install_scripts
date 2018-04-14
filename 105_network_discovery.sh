@@ -8,7 +8,7 @@ echo ":::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::"
 echo
 sleep 2
 
-sudo pacman -S --noconfim --needed avahi
+sudo pacman -S --noconfirm --needed avahi
 sudo systemctl enable avahi-daemon.service
 sudo systemctl start avahi-daemon.service
 
