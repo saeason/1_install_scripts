@@ -31,7 +31,7 @@ sudo cp -r ~/Dropbox/Sync/5_themes/* /usr/share/themes/
 sudo mkdir /usr/share/wallpapers
 sudo cp -r ~/Dropbox/Wallpapers/* /usr/share/wallpapers/
 
-cd $HOME && ln -s ~/Dropbox/Sync/.xinitrc .
+ln -s ~/Dropbox/Sync/.xinitrc /home/scott/
 
 echo
 echo ":::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::"
@@ -41,12 +41,12 @@ echo
 
 # Appearance / Theme			/ Arc-Numix-Dark
 # Appearance / Icons			/ Papirus-Dark
-# Appearance / Font			/ Sans Regular 10 
+# Appearance / Font				/ Sans Regular 10 
 # Appearance / Image			/ /usr/share/wallpapers/earth-view...
 # Appearance / Colour			/ Black
-# Appearance / Use wallpaper		/ Yes
+# Appearance / Use wallpape		/ Yes
 # Appearance / Use image		/ Yes
-# Appearance / Icon			/ /usr/share/icons/Papirus/48x48
+# Appearance / Icon				/ /usr/share/icons/Papirus/48x48
 
 # Clock format: %a,%H:%M
 

@@ -9,7 +9,6 @@ echo ":::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::"
 echo
 sleep 2
 
-cd $HOME
 ln -s /home/scott/Dropbox/Sync/.Xresources /home/scott/
 
 echo
@@ -34,6 +33,9 @@ cd /home/scott/Dropbox/Sync/1_install_scripts
 ./006_vim.sh
 ./101_create_personal_folders.sh
 ./102_fonts.sh
-./140_sound.sh
+./103_sound.sh
+./104_bluetooth.sh
+./105_network_discovery.sh
 ./401_use_all_cores.sh
 ./402_fix_firefox_dark_themes.sh
+./701_git_configure.sh

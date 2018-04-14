@@ -3,7 +3,6 @@ set -e
 
 numberofcores=$(grep -c ^processor /proc/cpuinfo)
 
-
 case $numberofcores in
 
     8)

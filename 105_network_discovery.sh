@@ -8,11 +8,12 @@ echo ":::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::"
 echo
 sleep 2
 
-sudo pacman -S avahi --noconfirm --needed
+sudo pacman -S --noconfim --needed avahi
 sudo systemctl enable avahi-daemon.service
 sudo systemctl start avahi-daemon.service
 
-
+echo
 echo ":::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::"
 echo "::: Network discovery software installed ::::::::::::::::::::::::::::::::"
 echo ":::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::"
+echo

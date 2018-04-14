@@ -8,16 +8,15 @@ echo ":::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::"
 echo
 sleep 2
 
-sudo pacman -S pulseaudio --noconfirm --needed
-sudo pacman -S pulseaudio-alsa --noconfirm --needed
-sudo pacman -S pavucontrol  --noconfirm --needed
-sudo pacman -S alsa-utils alsa-plugins alsa-lib alsa-firmware --noconfirm --needed
-sudo pacman -S volumeicon --noconfirm --needed
-sudo pacman -S playerctl --noconfirm --needed
-
-
-#sudo pacman -S gstreamer --noconfirm --needed
-#sudo pacman -S gst-plugins-good gst-plugins-bad gst-plugins-base gst-plugins-ugly --noconfirm --needed
+sudo pacman -S --noconfirm --needed alsa-firmware
+sudo pacman -S --noconfirm --needed alsa-lib
+sudo pacman -S --noconfirm --needed alsa-plugins
+sudo pacman -S --noconfirm --needed alsa-utils
+sudo pacman -S --noconfirm --needed pavucontrol  
+sudo pacman -S --noconfirm --needed playerctl
+sudo pacman -S --noconfirm --needed pulseaudio
+sudo pacman -S --noconfirm --needed pulseaudio-alsa
+sudo pacman -S --noconfirm --needed volumeicon
 
 echo
 echo ":::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::"

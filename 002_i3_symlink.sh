@@ -28,7 +28,7 @@ if [ -d ~/.config/i3 ]; then
 	fi
 fi
 
-cd $HOME && ln -s ~/Dropbox/Sync/.i3 .
+ln -s ~/Dropbox/Sync/.i3 /home/scott/
 
 echo
 echo ":::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::"

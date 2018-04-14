@@ -14,14 +14,12 @@ if [ -f ~/.zshrc ]; then
 fi
 
 if [ ! -e ~/.zscrc ]; then  
-	cd $HOME && ln -s ~/Dropbox/Sync/.zshrc .
+	ln -s ~/Dropbox/Sync/.zshrc /home/scott/
 fi
 
 if [ -f ~/.zshrc.pre-oh-my-zsh ]; then
 	rm -f ~/.zshrc.pre-oh-my-zsh 
 fi
-
-#sudo sed -i 's/ZSH_THEME=\"robbyrussell\"/ZSH_THEME=\"random\"/g' ~/.zshrc
 
 echo
 echo ":::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::"

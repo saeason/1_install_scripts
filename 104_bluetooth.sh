@@ -21,7 +21,6 @@ sudo systemctl start bluetooth.service
 
 sudo sed -i 's/'#AutoEnable=false'/'AutoEnable=true'/g' /etc/bluetooth/main.conf
 
-
 echo
 echo ":::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::"
 echo "::: Bluetooth software installed. :::::::::::::::::::::::::::::::::::::::"

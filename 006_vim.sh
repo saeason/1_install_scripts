@@ -14,7 +14,7 @@ if [ -f ~/.vimrc ]; then
 fi
 
 if [ ! -e ~/.vimrc ]; then  
-	cd $HOME && ln -s ~/Dropbox/Sync/.vimrc .
+	ln -s ~/Dropbox/Sync/.vimrc /home/scott/
 fi
 
 if [ -d ~/.vim ]; then
@@ -22,11 +22,14 @@ if [ -d ~/.vim ]; then
 fi
 
 if [ ! -e ~/.vim ]; then  
-	cd $HOME && ln -s ~/Dropbox/Sync/.vim .
+	ln -s ~/Dropbox/Sync/.vim /home/scott/
 fi
 
 # the following 2 line install the instant-markdown dependencies
-sudo pacman -Sy --noconfirm --needed nodejs npm xdg-utils
+sudo pacman -Sy --noconfirm --needed nodejs
+sudo pacman -Sy --noconfirm --needed npm
+sudo pacman -Sy --noconfirm --needed xdg-utils
+
 sudo npm -g install instant-markdown-d
 
 # type base into a shell and press tab to see colorscheme choices
@@ -34,7 +37,8 @@ git clone https://github.com/chriskempson/base16-shell.git ~/.config/base16-shel
 
 echo
 echo ":::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::"
-echo "::: .vimrc files successfully linked to the /home directory. ::::::::::::"
+echo "::: vimrc files successfully linked to the /home directory. :::::::::::::"
+echo "::: Instant markdown and Base16 colours also isntalled. :::::::::::::::::"
 echo ":::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::"
 echo
 
