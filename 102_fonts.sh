@@ -9,8 +9,8 @@ echo ":::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::"
 echo
 sleep 2
 
-sudo pacman -S --noconfirm --needed awesome-terminal-fonts
 sudo pacman -S --noconfirm --needed adobe-source-sans-pro-fonts
+sudo pacman -S --noconfirm --needed awesome-terminal-fonts
 sudo pacman -S --noconfirm --needed cantarell-fonts
 sudo pacman -S --noconfirm --needed noto-fonts
 sudo pacman -S --noconfirm --needed terminus-font

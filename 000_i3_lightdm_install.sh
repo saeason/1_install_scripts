@@ -17,20 +17,20 @@ sudo pacman -S --noconfirm --needed i3blocks
 sudo pacman -S --noconfirm --needed i3lock
 
 # supporting packages for immediate i3 functionality
-sudo pacman -S --noconfimr --needed calcurse
-sudo pacman -S --noconfimr --needed cmus
-sudo pacman -S --noconfimr --needed dmenu
-sudo pacman -S --noconfimr --needed dunst
-sudo pacman -S --noconfimr --needed evince
+sudo pacman -S --noconfirm --needed calcurse
+sudo pacman -S --noconfirm --needed cmus
+sudo pacman -S --noconfirm --needed dmenu
+sudo pacman -S --noconfirm --needed dunst
+sudo pacman -S --noconfirm --needed evince
 sudo pacman -S --noconfirm --needed feh
 sudo pacman -S --noconfirm --needed glances
 sudo pacman -S --noconfirm --needed htop
 sudo pacman -S --noconfirm --needed imagemagick
 sudo pacman -S --noconfirm --needed ranger
 sudo pacman -S --noconfirm --needed rxvt-unicode
-sudo pacman -S --noconfimr --needed thunar
-sudo pacman -S --noconfimr --needed thunar-archive-plugin
-sudo pacman -S --noconfimr --needed thunar-volman
+sudo pacman -S --noconfirm --needed thunar
+sudo pacman -S --noconfirm --needed thunar-archive-plugin
+sudo pacman -S --noconfirm --needed thunar-volman
 sudo pacman -S --noconfirm --needed scrot
 sudo pacman -S --noconfirm --needed tmux
 sudo pacman -S --noconfirm --needed tree
