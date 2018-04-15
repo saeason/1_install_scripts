@@ -16,9 +16,10 @@ sudo pacman -S --noconfirm --needed polkit-gnome
 sudo pacman -S --noconfirm --needed qt5-styleplugins
 sudo pacman -S --noconfirm --needed qt5ct
 
-yaourt -S --noconfirm --needed papirus-icon-theme
 yaourt -S --noconfirm --needed damadamas-icon-theme-git
 yaourt -S --noconfirm --needed gtk-theme-numix-solarized
+yaourt -S --noconfirm --needed papirus-icon-theme
+yaourt -S --noconfirm --needed xcursor-breeze
 
 echo
 echo ":::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::"
