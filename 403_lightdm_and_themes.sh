@@ -42,9 +42,10 @@ echo ":::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::"
 echo
 
 # change theme with lxappearance
+# then change lightdm them with lightdm-gtk-greeter-settings-pkexec
  
 # Appearance / Theme			/ Arc-Numix-Dark
-# Appearance / Icons			/ Papirus-Dark
+# Appearance / Icons			/ DamDamas
 # Appearance / Font				/ Sans Regular 10 
 # Appearance / Image			/ /usr/share/wallpapers/earth-view...
 # Appearance / Colour			/ Black
@@ -72,6 +73,6 @@ echo
 # |O     O     O|
 # ---------------
 # Horizontal:	26
-# Vertical:	37
+# Vertical:	38
 
 # Misc / Default settings
