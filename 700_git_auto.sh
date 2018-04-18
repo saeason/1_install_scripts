@@ -2,8 +2,6 @@
 #set -e
 # set -e causes the shell to exit if any subcommand or pipeline returns a non-zero status.
 
-git pull
-
 # Below command will backup everything inside the project folder
 git add --all .
 

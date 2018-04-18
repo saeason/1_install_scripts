@@ -39,6 +39,7 @@ sudo pacman -S --noconfirm --needed tree
 sudo pacman -S --noconfirm --needed lightdm
 sudo pacman -S --noconfirm --needed lightdm-gtk-greeter
 sudo pacman -S --noconfirm --needed lightdm-gtk-greeter-settings
+
 sudo systemctl enable lightdm.service -f
 sudo systemctl set-default graphical.target
 
