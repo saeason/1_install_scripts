@@ -14,7 +14,7 @@ sudo pacman -S --noconfirm --needed curl
 sudo pacman -S --noconfirm --needed wget
 sudo pacman -S --noconfirm --needed zsh
 
-sudo chsh -s /usr/bin/zsh 
+sudo chsh scott -s /usr/bin/zsh 
 
 sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
 
