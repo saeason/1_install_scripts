@@ -2,30 +2,20 @@
 #set -e
 # set -e causes the shell to exit if any subcommand or pipeline returns a non-zero status.
 
-git pull
-
-# Below command will backup everything inside the project folder
-git add --all .
-
-# Give a comment to the commit if you want
 echo
 echo ":::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::"
-echo "::: Write commit comment: :::::::::::::::::::::::::::::::::::::::::::::::"
+echo "::: Choose the name of the wallpaper to set:  :::::::::::::::::::::::::::"
 echo ":::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::"
 echo
 sleep 1
 
 read input
 
-# Committing to the local repository with a message containing the time details and commit text
-git commit -m "$input"
-
-# Push the local files to github
-git push -u origin master
+feh --bg-scale ~/Dropbox/Wallpapers/"$input"
 
 echo
 echo ":::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::"
-echo "::: Git push done. ::::::::::::::::::::::::::::::::::::::::::::::::::::::"
+echo "::: Wallpaper changed. ::::::::::::::::::::::::::::::::::::::::::::::::::"
 echo ":::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::"
 echo
 sleep 1

@@ -13,6 +13,7 @@ sudo pacman -Sy
 
 sudo pacman -S --noconfirm --needed compton
 sudo pacman -S --noconfirm --needed rofi
+sudo pacman -S --noconfirm --needed w3m
 
 yaourt --noconfirm --needed polybar
 

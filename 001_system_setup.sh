@@ -37,5 +37,5 @@ cd /home/scott/Dropbox/Sync/1_install_scripts
 ./104_bluetooth.sh
 ./105_network_discovery.sh
 ./401_use_all_cores.sh
-./402_fix_firefox_dark_themes.sh
+./403_lightdm_and_themes.sh
 ./701_git_configure.sh

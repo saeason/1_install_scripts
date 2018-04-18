@@ -28,13 +28,14 @@ echo ":::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::"
 echo
 sleep 2
 
-
 sudo cp -r ~/Dropbox/Sync/5_themes/* /usr/share/themes/
 
 sudo mkdir /usr/share/wallpapers
 sudo cp -r ~/Dropbox/Wallpapers/* /usr/share/wallpapers/
 
 ln -s ~/Dropbox/Sync/.xinitrc /home/scott/
+
+echo "QT_QPA_PLATFORMTHEME=qt5ct" | sudo tee -a  /etc/environment
 
 echo
 echo ":::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::"

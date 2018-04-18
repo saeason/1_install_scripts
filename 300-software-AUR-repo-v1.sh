@@ -18,14 +18,11 @@ sh AUR/install-peek-v*.sh
 sh AUR/install-radiotray-v*.sh
 sh AUR/install-spotify-v*.sh
 
-sh AUR/install-arc-gtk-theme-git-v*.sh
 sh AUR/install-downgrade-v*.sh
 sh AUR/install-neofetch-v*.sh
 sh AUR/install-numix-circle-icon-theme-git-v*.sh
 sh AUR/install-paper-icon-theme-git-v*.sh
-sh AUR/install-papirus-icon-theme-git-v*.sh
 sh AUR/install-screenkey-v*.sh
-sh AUR/install-xcursor-breeze-v*.sh
 
 # these come last always
 
