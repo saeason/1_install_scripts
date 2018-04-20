@@ -29,7 +29,9 @@ echo
 cd /home/scott/Dropbox/Sync/1_install_scripts
 
 ./002_i3_symlink.sh
-./003_ohmyzsh.sh
+
+nohup ./003_ohmyzsh.sh &
+
 ./004_zshrc_config_symlink.sh
 ./005_polybar_rofi_compton.sh
 ./006_vim.sh

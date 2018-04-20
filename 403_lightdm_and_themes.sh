@@ -37,6 +37,8 @@ ln -s ~/Dropbox/Sync/.xinitrc /home/scott/
 
 echo "QT_QPA_PLATFORMTHEME=qt5ct" | sudo tee -a  /etc/environment
 
+sudo cp -r /home/scott/Dropbox/Sync/.config/gtk-3.0 /root/.config/
+
 echo
 echo ":::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::"
 echo "::: Use lightdm greeter settings to configure. ::::::::::::::::::::::::::"
