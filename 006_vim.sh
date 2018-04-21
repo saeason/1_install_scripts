@@ -4,7 +4,7 @@ set -e
 
 echo
 echo ":::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::"
-echo "::: Sym-linking .vimrc from Dropbox to the /home directory. ::::::::::::::"
+echo "::: Sym-linking .vimrc from Dropbox to the /home directory. :::::::::::::"
 echo ":::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::"
 echo
 sleep 2

@@ -15,12 +15,12 @@ sudo pacman -S --noconfirm --needed compton
 sudo pacman -S --noconfirm --needed rofi
 sudo pacman -S --noconfirm --needed w3m
 
-yaourt --noconfirm --needed polybar
+#yaourt --noconfirm --needed polybar
 
 ln -s ~/Dropbox/Sync/.calcurse /home/scott/
 ln -s ~/Dropbox/Sync/.tmux.conf /home/scott/
 ln -s ~/Dropbox/Sync/.config/cmus /home/scott/.config/
-ln -s ~/Dropbox/Sync/.config/polybar /home/scott/.config/
+#ln -s ~/Dropbox/Sync/.config/polybar /home/scott/.config/
 ln -s ~/Dropbox/Sync/.config/ranger /home/scott/.config/
 ln -s ~/Dropbox/Sync/.config/dunst /home/scott/.config/
 

@@ -17,6 +17,7 @@ sudo pacman -S --noconfirm --needed i3blocks
 sudo pacman -S --noconfirm --needed i3lock
 
 # supporting packages for immediate i3 functionality
+sudo pacman -S --noconfirm --needed acpi
 sudo pacman -S --noconfirm --needed calcurse
 sudo pacman -S --noconfirm --needed cmus
 sudo pacman -S --noconfirm --needed dmenu
@@ -32,8 +33,10 @@ sudo pacman -S --noconfirm --needed thunar
 sudo pacman -S --noconfirm --needed thunar-archive-plugin
 sudo pacman -S --noconfirm --needed thunar-volman
 sudo pacman -S --noconfirm --needed scrot
+sudo pacman -S --noconfirm --needed sensors
 sudo pacman -S --noconfirm --needed tmux
 sudo pacman -S --noconfirm --needed tree
+sudo pacman -S --noconfirm --needed xbacklight
 
 
 sudo pacman -S --noconfirm --needed lightdm
