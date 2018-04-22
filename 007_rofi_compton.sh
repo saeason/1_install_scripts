@@ -4,7 +4,7 @@ set -e
 
 echo
 echo ":::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::"
-echo "::: Installing compton, polybar and rofi. :::::::::::::::::::::::::::::::"
+echo "::: Installing compton and rofi. ::::::::::::::::::::::::::::::::::::::::"
 echo ":::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::"
 echo
 sleep 2
@@ -26,6 +26,6 @@ ln -s ~/Dropbox/Sync/.config/dunst /home/scott/.config/
 
 echo
 echo ":::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::"
-echo "::: Compton, polybar and rofi are now installed. ::::::::::::::::::::::::"
+echo "::: Compton and rofi are now installed. :::::::::::::::::::::::::::::::::"
 echo ":::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::"
 echo
