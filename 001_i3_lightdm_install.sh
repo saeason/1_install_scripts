@@ -27,16 +27,17 @@ sudo pacman -S --noconfirm --needed feh
 sudo pacman -S --noconfirm --needed glances
 sudo pacman -S --noconfirm --needed htop
 sudo pacman -S --noconfirm --needed imagemagick
+sudo pacman -S --noconfirm --needed lm_sensors
 sudo pacman -S --noconfirm --needed ranger
 sudo pacman -S --noconfirm --needed rxvt-unicode
 sudo pacman -S --noconfirm --needed thunar
 sudo pacman -S --noconfirm --needed thunar-archive-plugin
 sudo pacman -S --noconfirm --needed thunar-volman
 sudo pacman -S --noconfirm --needed scrot
-sudo pacman -S --noconfirm --needed sensors
+sudo pacman -S --noconfirm --needed sysstat
 sudo pacman -S --noconfirm --needed tmux
 sudo pacman -S --noconfirm --needed tree
-sudo pacman -S --noconfirm --needed xbacklight
+sudo pacman -S --noconfirm --needed xorg-xbacklight
 
 
 sudo pacman -S --noconfirm --needed lightdm
