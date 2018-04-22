@@ -29,7 +29,7 @@ echo
 
 cd /home/scott/Dropbox/Sync/1_install_scripts
 
-./003_i3_symlink.sh
+./004_i3_symlink.sh
 
 ./005_zshrc_config_symlink.sh
 ./006_vim.sh
