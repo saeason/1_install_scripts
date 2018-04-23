@@ -27,3 +27,4 @@ echo "::: .zshrc files successfully linked to the /home directory. ::::::::::::"
 echo ":::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::"
 echo
 
+sudo reboot

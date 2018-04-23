@@ -37,6 +37,7 @@ sudo pacman -S --noconfirm --needed scrot
 sudo pacman -S --noconfirm --needed sysstat
 sudo pacman -S --noconfirm --needed tmux
 sudo pacman -S --noconfirm --needed tree
+sudo pacman -S --noconfirm --needed vim
 sudo pacman -S --noconfirm --needed xorg-xbacklight
 
 

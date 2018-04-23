@@ -31,9 +31,8 @@ cd /home/scott/Dropbox/Sync/1_install_scripts
 
 ./004_i3_symlink.sh
 
-./005_zshrc_config_symlink.sh
 ./006_vim.sh
-./007_polybar_rofi_compton.sh
+./007_rofi_compton.sh
 
 ./101_create_personal_folders.sh
 ./102_fonts.sh
@@ -41,3 +40,6 @@ cd /home/scott/Dropbox/Sync/1_install_scripts
 ./104_bluetooth.sh
 ./105_network_discovery.sh
 ./106_lightdm_and_themes.sh
+
+./002_ohmyzsh.sh
+nohup ./005_zshrc_config_symlink.sh
