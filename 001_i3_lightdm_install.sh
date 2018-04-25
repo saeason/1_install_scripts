@@ -24,6 +24,7 @@ sudo pacman -S --noconfirm --needed dmenu
 sudo pacman -S --noconfirm --needed dunst
 sudo pacman -S --noconfirm --needed evince
 sudo pacman -S --noconfirm --needed feh
+sudo pacman -S --noconfirm --needed firefox
 sudo pacman -S --noconfirm --needed glances
 sudo pacman -S --noconfirm --needed htop
 sudo pacman -S --noconfirm --needed imagemagick

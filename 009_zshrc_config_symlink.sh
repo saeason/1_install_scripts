@@ -21,6 +21,8 @@ if [ -f ~/.zshrc.pre-oh-my-zsh ]; then
 	rm -f ~/.zshrc.pre-oh-my-zsh 
 fi
 
+source ~/.zshrc
+
 echo
 echo ":::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::"
 echo "::: .zshrc files successfully linked to the /home directory. ::::::::::::"
