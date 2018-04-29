@@ -41,5 +41,4 @@ cd /home/scott/Dropbox/Sync/1_install_scripts
 ./105_network_discovery.sh
 ./106_lightdm_and_themes.sh
 
-./002_ohmyzsh.sh
-nohup ./005_zshrc_config_symlink.sh
+./008_ohmyzsh.sh_bak

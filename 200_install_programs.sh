@@ -23,7 +23,7 @@ sudo pacman -S --noconfirm --needed gpick
 sudo pacman -S --noconfirm --needed gcolor2
 
 echo "Installing category Internet"
-sudo pacman -S --noconfirm --needed chromium
+#sudo pacman -S --noconfirm --needed chromium
 
 echo "Installing category Multimedia"
 sudo pacman -S --noconfirm --needed simplescreenrecorder
