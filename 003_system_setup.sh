@@ -41,4 +41,4 @@ cd /home/scott/Dropbox/Sync/1_install_scripts
 ./105_network_discovery.sh
 ./106_lightdm_and_themes.sh
 
-./008_ohmyzsh.sh_bak
+./008_ohmyzsh.sh

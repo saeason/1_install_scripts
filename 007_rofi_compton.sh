@@ -17,6 +17,26 @@ sudo pacman -S --noconfirm --needed w3m
 
 #yaourt --noconfirm --needed polybar
 
+if [ -f /home/scott/.calcurse ]; then
+		rm -f /home/scott/.calcurse
+fi
+
+if [ -f /home/scott/.tmux.conf ]; then
+		rm -f /home/scott/.tmux.conf
+fi
+
+if [ -d /home/scott/.config/cmus ]; then
+		rm -rf /home/scott/.config/cmus
+fi
+ 
+if [ -d /home/scott/.config/dunst ]; then
+		rm -rf /home/scott/.config/dunst
+fi
+
+if [ -d /home/scott/.config/ ranger ]; then
+		rm -rf /home/scott/.config/ranger
+fi
+
 ln -s ~/Dropbox/Sync/.calcurse /home/scott/
 ln -s ~/Dropbox/Sync/.tmux.conf /home/scott/
 ln -s ~/Dropbox/Sync/.config/cmus /home/scott/.config/
