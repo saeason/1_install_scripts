@@ -25,8 +25,8 @@ sudo pacman -S --noconfirm --needed ttf-liberation
 sudo pacman -S --noconfirm --needed ttf-roboto
 sudo pacman -S --noconfirm --needed ttf-ubuntu-font-family
 
-yaourt  --noconfirm --needed  ttf-font-awesome
-yaourt  --noconfirm --needed  ttf-mac-fonts
+yay  --noconfirm --needed  ttf-font-awesome
+yay  --noconfirm --needed  ttf-mac-fonts
 
 echo
 echo ":::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::"

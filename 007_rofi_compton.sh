@@ -15,7 +15,7 @@ sudo pacman -S --noconfirm --needed compton
 sudo pacman -S --noconfirm --needed rofi
 sudo pacman -S --noconfirm --needed w3m
 
-#yaourt --noconfirm --needed polybar
+#yay --noconfirm --needed polybar
 
 if [ -f /home/scott/.calcurse ]; then
 		rm -f /home/scott/.calcurse
@@ -23,6 +23,10 @@ fi
 
 if [ -f /home/scott/.tmux.conf ]; then
 		rm -f /home/scott/.tmux.conf
+fi
+
+if [ -d /home/scott/.tmux ]; then
+		rm -rf /home/scott/.tmux
 fi
 
 if [ -d /home/scott/.config/cmus ]; then
@@ -39,6 +43,7 @@ fi
 
 ln -s ~/Dropbox/Sync/.calcurse /home/scott/
 ln -s ~/Dropbox/Sync/.tmux.conf /home/scott/
+ln -s ~/Dropbox/Sync/.tmux /home/scott/
 ln -s ~/Dropbox/Sync/.config/cmus /home/scott/.config/
 #ln -s ~/Dropbox/Sync/.config/polybar /home/scott/.config/
 ln -s ~/Dropbox/Sync/.config/ranger /home/scott/.config/

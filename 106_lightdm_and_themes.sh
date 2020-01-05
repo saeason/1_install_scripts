@@ -16,11 +16,15 @@ sudo pacman -S --noconfirm --needed polkit-gnome
 sudo pacman -S --noconfirm --needed qt5-styleplugins
 sudo pacman -S --noconfirm --needed qt5ct
 
-yaourt -S --noconfirm --needed damadamas-icon-theme-git
-yaourt -S --noconfirm --needed gtk-theme-numix-solarized
-yaourt -S --noconfirm --needed papirus-icon-theme
-yaourt -S --noconfirm --needed xcursor-breeze
+# When installing damadamas icons it will ask:
+# [ ] horizontal or [ ] vertical etc just type the following:
+# :: horizontal etc.
 
+yay -S --noconfirm --needed damadamas-icon-theme-git
+yay -S --noconfirm --needed gtk-theme-numix-solarized
+yay -S --noconfirm --needed papirus-icon-theme
+yay -S --noconfirm --needed xcursor-breeze
+ 
 echo
 echo ":::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::"
 echo "::: Copying themes and wallpapers, this may take a while. :::::::::::::::"

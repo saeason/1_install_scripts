@@ -32,7 +32,6 @@ cd /home/scott/Dropbox/Sync/1_install_scripts
 ./004_i3_symlink.sh
 
 ./006_vim.sh
-./007_rofi_compton.sh
 
 ./101_create_personal_folders.sh
 ./102_fonts.sh

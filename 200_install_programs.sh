@@ -28,7 +28,9 @@ echo "Installing category Internet"
 echo "Installing category Multimedia"
 sudo pacman -S --noconfirm --needed simplescreenrecorder
 sudo pacman -S --noconfirm --needed vlc
-sudo pacman -S --noconfirm --needed volumeicon
+sudo pacman -S --noconfirm --needed zathura zathura-pdf-poppler
+#sudo pacman -S --noconfirm --needed evince
+
 
 echo "Installing category System"
 sudo pacman -S --noconfirm --needed catfish # gui file seacher
@@ -41,7 +43,6 @@ sudo pacman -S --noconfirm --needed gvfs gvfs-mtp
 sudo pacman -S --noconfirm --needed hardinfo
 sudo pacman -S --noconfirm --needed hddtemp
 sudo pacman -S --noconfirm --needed inxi
-sudo pacman -S --noconfirm --needed lm_sensors
 sudo pacman -S --noconfirm --needed lsb-release
 sudo pacman -S --noconfirm --needed lxrandr # Monitor configuration tool (part of LXDE)
 sudo pacman -S --noconfirm --needed mlocate
@@ -52,7 +53,7 @@ sudo pacman -S --noconfirm --needed rsync
 sudo pacman -S --noconfirm --needed screenfetch
 sudo pacman -S --noconfirm --needed sysstat # collection of resource monitors
 sudo pacman -S --noconfirm --needed task # Taskwarrior
-sudo pacman -S --noconfirm --needed termite
+# sudo pacman -S --noconfirm --needed termite
 sudo pacman -S --noconfirm --needed vnstat
 #sudo pacman -S --noconfirm --needed unclutter # hide the mouse cursor
 sudo pacman -S --noconfirm --needed xfce4-clipman-plugin
@@ -62,11 +63,11 @@ sudo pacman -S --noconfirm --needed xorg-xrandr
 sudo pacman -S --noconfirm --needed xorg-xkill
 
 # gui packages
-sudo pacman -S --noconfirm --needed deadbeef	# itunes type music player
-sudo pacman -S --noconfirm --needed openshot	# imovie type video editor
-sudo pacman -S --noconfirm --needed ristretto	# iphoto type image organiser
-sudo pacman -S --noconfirm --needed gimp		# Photoshop type application
-sudo pacman -S --noconfirm --needed darktable	# Lightroom type application
+#sudo pacman -S --noconfirm --needed deadbeef	# itunes type music player
+#sudo pacman -S --noconfirm --needed openshot	# imovie type video editor
+#sudo pacman -S --noconfirm --needed ristretto	# iphoto type image organiser
+#sudo pacman -S --noconfirm --needed gimp		# Photoshop type application
+#sudo pacman -S --noconfirm --needed darktable	# Lightroom type application
 
 # installation of zippers and unzippers
 sudo pacman -S --noconfirm --needed arj

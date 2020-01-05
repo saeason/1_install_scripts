@@ -32,3 +32,7 @@ sudo hardcode-fixer
 echo "################################################################"
 echo "####        Software from AUR Repository installed        ######"
 echo "################################################################"
+
+### This script uses external scripts located in dros/unused_scripts/AUR 
+### They ase yaourt to install aur packages and yaoutt no longer existt
+### Am using yay now as an aur helper so will need to update all scripts in this folder
