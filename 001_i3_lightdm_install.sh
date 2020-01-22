@@ -22,7 +22,6 @@ sudo pacman -S --noconfirm --needed i3lock-color
 sudo pacman -S --noconfirm --needed acpi
 sudo pacman -S --noconfirm --needed calcurse
 sudo pacman -S --noconfirm --needed cmus
-sudo pacman -S --noconfirm --needed compton
 sudo pacman -S --noconfirm --needed dmenu
 sudo pacman -S --noconfirm --needed dunst
 sudo pacman -S --noconfirm --needed evince
@@ -37,7 +36,6 @@ sudo pacman -S --noconfirm --needed man-db
 sudo pacman -S --noconfirm --needed man-pages
 sudo pacman -S --noconfirm --needed neofetch
 sudo pacman -S --noconfirm --needed ranger
-sudo pacman -S --noconfirm --needed rofi
 sudo pacman -S --noconfirm --needed rxvt-unicode
 sudo pacman -S --noconfirm --needed thunar
 sudo pacman -S --noconfirm --needed thunar-archive-plugin
@@ -48,7 +46,6 @@ sudo pacman -S --noconfirm --needed sysstat
 sudo pacman -S --noconfirm --needed tmux
 sudo pacman -S --noconfirm --needed tree
 sudo pacman -S --noconfirm --needed vim
-sudo pacman -S --noconfirm --needed w3m
 sudo pacman -S --noconfirm --needed xorg-xbacklight
 
 

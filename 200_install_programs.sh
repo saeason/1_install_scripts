@@ -66,7 +66,7 @@ sudo pacman -S --noconfirm --needed xorg-xkill
 #sudo pacman -S --noconfirm --needed deadbeef	# itunes type music player
 #sudo pacman -S --noconfirm --needed openshot	# imovie type video editor
 #sudo pacman -S --noconfirm --needed ristretto	# iphoto type image organiser
-#sudo pacman -S --noconfirm --needed gimp		# Photoshop type application
+#sudo pacman -S --noconfirm --needed gimp	# Photoshop type application
 #sudo pacman -S --noconfirm --needed darktable	# Lightroom type application
 
 # installation of zippers and unzippers

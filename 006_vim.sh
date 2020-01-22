@@ -35,9 +35,6 @@ sudo pacman -S --noconfirm --needed xdg-utils
 
 sudo npm -g install instant-markdown-d
 
-# type base into a shell and press tab to see colorscheme choices
-# git clone https://github.com/chriskempson/base16-shell.git ~/.config/base16-shell
-
 echo
 echo ":::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::"
 echo "::: vimrc files successfully linked to the /home directory. :::::::::::::"

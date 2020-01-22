@@ -46,8 +46,8 @@ ln -s ~/Dropbox/Sync/.tmux.conf /home/scott/
 ln -s ~/Dropbox/Sync/.tmux /home/scott/
 ln -s ~/Dropbox/Sync/.config/cmus /home/scott/.config/
 #ln -s ~/Dropbox/Sync/.config/polybar /home/scott/.config/
-ln -s ~/Dropbox/Sync/.config/ranger /home/scott/.config/
 ln -s ~/Dropbox/Sync/.config/dunst /home/scott/.config/
+ln -s ~/Dropbox/Sync/.config/ranger /home/scott/.config/
 
 echo
 echo ":::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::"

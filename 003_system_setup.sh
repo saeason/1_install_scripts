@@ -27,17 +27,18 @@ echo "::: Running scripts to install fonts and create personal folders. :::::::"
 echo ":::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::"
 echo
 
-cd /home/scott/Dropbox/Sync/1_install_scripts
-
-./004_i3_symlink.sh
-
-./006_vim.sh
-
-./101_create_personal_folders.sh
-./102_fonts.sh
-./103_sound.sh
-./104_bluetooth.sh
-./105_network_discovery.sh
-./106_lightdm_and_themes.sh
-
-./008_ohmyzsh.sh
+# cd /home/scott/Dropbox/Sync/1_install_scripts
+# 
+# ./004_i3_symlink.sh
+# 
+# ./006_vim.sh
+# ./007_rofi_compton.sh
+# 
+# ./101_create_personal_folders.sh
+# ./102_fonts.sh
+# ./103_sound.sh
+# ./104_bluetooth.sh
+# ./105_network_discovery.sh
+# ./106_lightdm_and_themes.sh
+# 
+# ./008_ohmyzsh.sh
