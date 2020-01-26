@@ -14,7 +14,7 @@ sudo pacman -Syyu
 sudo pacman -S --noconfirm --needed i3-gaps
 sudo pacman -S --noconfirm --needed i3status
 sudo pacman -S --noconfirm --needed i3blocks
-sudo pacman -S --noconfirm --needed i3lock
+# sudo pacman -S --noconfirm --needed i3lock
 sudo pacman -S --noconfirm --needed i3lock-color
 
 
@@ -40,6 +40,7 @@ sudo pacman -S --noconfirm --needed rxvt-unicode
 sudo pacman -S --noconfirm --needed thunar
 sudo pacman -S --noconfirm --needed thunar-archive-plugin
 sudo pacman -S --noconfirm --needed thunar-volman
+sudo pacman -S --noconfirm --needed gvfs
 sudo pacman -S --noconfirm --needed scrot
 sudo pacman -S --noconfirm --needed syncthing
 sudo pacman -S --noconfirm --needed sysstat
