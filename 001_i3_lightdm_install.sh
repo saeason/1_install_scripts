@@ -30,6 +30,8 @@ sudo pacman -S --noconfirm --needed firefox
 sudo pacman -S --noconfirm --needed glances
 sudo pacman -S --noconfirm --needed htop
 sudo pacman -S --noconfirm --needed imagemagick
+sudo pacman -S --noconfirm --needed inotify-tools
+sudo pacman -S --noconfirm --needed incron
 sudo pacman -S --noconfirm --needed lm_sensors
 sudo pacman -S --noconfirm --needed lsd
 sudo pacman -S --noconfirm --needed man-db
