@@ -33,7 +33,7 @@ sudo pacman -S --noconfirm --needed zathura zathura-pdf-poppler
 
 
 echo "Installing category System"
-sudo pacman -S --noconfirm --needed catfish # gui file seacher
+#sudo pacman -S --noconfirm --needed catfish # gui file seacher
 #sudo pacman -S --noconfirm --needed dmidecode
 #sudo pacman -S --noconfirm --needed gksu # deprecated
 #sudo pacman -S --noconfirm --needed gparted

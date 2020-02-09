@@ -14,7 +14,7 @@ if [ -f ~/.vimrc ]; then
 fi
 
 if [ ! -e ~/.vimrc ]; then  
-	ln -s ~/Dropbox/Sync/.vimrc /home/scott/
+	ln -s ~/MEGA/.vimrc /home/scott/
 fi
 
 if [ -d ~/.vim ]; then
@@ -22,7 +22,7 @@ if [ -d ~/.vim ]; then
 fi
 
 if [ ! -e ~/.vim ]; then  
-	ln -s ~/Dropbox/Sync/.vim /home/scott/
+	ln -s ~/MEGA/.vim /home/scott/
 fi
 
 # the following lines install the instant-markdown dependencies
@@ -38,7 +38,7 @@ sudo npm -g install instant-markdown-d
 echo
 echo ":::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::"
 echo "::: vimrc files successfully linked to the /home directory. :::::::::::::"
-echo "::::::::::::::::::::  Instant markdown is isntalled.  :::::::::::::::::::"
+echo "::: Instant markdown is isntalled. ::::::::::::::::::::::::::::::::::::::"
 echo ":::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::"
 echo
 

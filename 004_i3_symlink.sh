@@ -4,7 +4,7 @@ set -e
 
 echo
 echo ":::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::"
-echo "::: Sym-linking i3 from Dropbox to the /home directory. :::::::::::::::::"
+echo "::: Sym-linking i3 from MEAG to the /home directory. ::::::::::::::::::::"
 echo ":::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::"
 sleep 2
 
@@ -28,7 +28,7 @@ if [ -d ~/.config/i3 ]; then
 	fi
 fi
 
-ln -s ~/Dropbox/Sync/.i3 /home/scott/
+ln -s /home/scott/MEGA/.i3 /home/scott/
 
 echo
 echo ":::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::"

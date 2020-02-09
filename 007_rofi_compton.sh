@@ -41,13 +41,12 @@ if [ -d /home/scott/.config/ ranger ]; then
 		rm -rf /home/scott/.config/ranger
 fi
 
-ln -s ~/Dropbox/Sync/.calcurse /home/scott/
-ln -s ~/Dropbox/Sync/.tmux.conf /home/scott/
-ln -s ~/Dropbox/Sync/.tmux /home/scott/
-ln -s ~/Dropbox/Sync/.config/cmus /home/scott/.config/
-#ln -s ~/Dropbox/Sync/.config/polybar /home/scott/.config/
-ln -s ~/Dropbox/Sync/.config/dunst /home/scott/.config/
-ln -s ~/Dropbox/Sync/.config/ranger /home/scott/.config/
+ln -s ~/MEGA/.calcurse /home/scott/
+ln -s ~/MEGA/.tmux.conf /home/scott/
+ln -s ~/MEGA/.tmux /home/scott/
+ln -s ~/MEGA/.config/cmus /home/scott/.config/
+ln -s ~/MEGA/.config/dunst /home/scott/.config/
+ln -s ~/MEGA/.config/ranger /home/scott/.config/
 
 echo
 echo ":::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::"

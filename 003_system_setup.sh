@@ -4,13 +4,13 @@ set -e
 
 echo
 echo ":::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::"
-echo "::: Sym-linking the .Xresources file from Dropbox. ::::::::::::::::::::::"
+echo "::: Sym-linking the .Xresources file from MEGA. :::::::::::::::::::::::::"
 echo ":::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::"
 echo
 sleep 2
 
 rm -f /home/scott/.Xresources
-ln -s /home/scott/Dropbox/Sync/.Xresources /home/scott/.Xresources
+ln -s /home/scott/MEGA/.Xresources /home/scott/.Xresources
 
 echo
 echo ":::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::"
@@ -27,7 +27,7 @@ echo "::: Running scripts to install fonts and create personal folders. :::::::"
 echo ":::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::"
 echo
 
-# cd /home/scott/Dropbox/Sync/1_install_scripts
+# cd /home/scott/MEGA/Sync/1_install_scripts
 # 
 # ./004_i3_symlink.sh
 # 

@@ -28,7 +28,7 @@ if [ -f ~/.zshrc ]; then
 fi
 
 if [ ! -e ~/.zscrc ]; then
-	ln -s ~/Dropbox/Sync/.zshrc /home/scott/
+	ln -s ~/MEGA/.zshrc /home/scott/
 fi
 
 if [ -f ~/.zshrc.pre-oh-my-zsh ]; then

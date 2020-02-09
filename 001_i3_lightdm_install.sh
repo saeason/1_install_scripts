@@ -30,12 +30,11 @@ sudo pacman -S --noconfirm --needed firefox
 sudo pacman -S --noconfirm --needed glances
 sudo pacman -S --noconfirm --needed htop
 sudo pacman -S --noconfirm --needed imagemagick
-sudo pacman -S --noconfirm --needed inotify-tools
-sudo pacman -S --noconfirm --needed incron
 sudo pacman -S --noconfirm --needed lm_sensors
 sudo pacman -S --noconfirm --needed lsd
 sudo pacman -S --noconfirm --needed man-db
 sudo pacman -S --noconfirm --needed man-pages
+sudo pacman -S --noconfirm --needed mlocate
 sudo pacman -S --noconfirm --needed neofetch
 sudo pacman -S --noconfirm --needed ranger
 sudo pacman -S --noconfirm --needed rxvt-unicode
@@ -61,6 +60,6 @@ sudo systemctl set-default graphical.target
 
 echo
 echo ":::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::"
-echo "::: i3 now installed, RESTART then sync Dropbox and install scripts. ::::"
+echo "::: i3 now installed, RESTART then sync MEGA and run install scripts. :::"
 echo ":::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::"
 echo

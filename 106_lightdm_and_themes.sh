@@ -22,8 +22,8 @@ sudo pacman -S --noconfirm --needed qt5-quickcontrols
 # [ ] horizontal or [ ] vertical etc just type the following:
 # :: horizontal etc.
 
-yay -S --noconfirm --needed damadamas-icon-theme-git
-yay -S --noconfirm --needed papirus-icon-theme
+# yay -S --noconfirm --needed damadamas-icon-theme-git
+# yay -S --noconfirm --needed papirus-icon-theme
 yay -S --noconfirm --needed xcursor-breeze
  
 echo
@@ -33,11 +33,11 @@ echo ":::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::"
 echo
 sleep 2
 
-sudo cp -r ~/Dropbox/Sync/5_themes/* /usr/share/themes/
-sudo cp -r ~/Dropbox/Sync/9_icons/* /usr/share/icons/
+sudo cp -r ~/MEGA/Sync/5_themes/* /usr/share/themes/
+sudo cp -r ~/MEGA/Sync/9_icons/* /usr/share/icons/
 
 sudo mkdir /usr/share/wallpapers
-sudo cp -r ~/Dropbox/Wallpapers/* /usr/share/wallpapers/
+sudo cp -r ~/MEGA/Sync/Wallpapers/Wallpapers_Synthwave/* /usr/share/wallpapers/
 
 echo
 echo ":::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::"

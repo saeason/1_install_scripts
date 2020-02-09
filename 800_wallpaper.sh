@@ -11,7 +11,7 @@ sleep 1
 
 read input
 
-feh --bg-scale ~/Dropbox/Wallpapers/"$input"
+feh --bg-scale ~/MEGA/Sync/Wallpapers/"$input"
 
 echo
 echo ":::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::"

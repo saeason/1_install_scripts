@@ -11,7 +11,7 @@ sleep 2
 
 cd $HOME/.mozilla/firefox/*.default/
 mkdir chrome
-ln -s ~/Dropbox/Sync/userContent.css ~/.mozilla/firefox/*.default/chrome/
+ln -s ~/MEGA/Sync/userContent.css ~/.mozilla/firefox/*.default/chrome/
 
 echo
 echo ":::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::"
