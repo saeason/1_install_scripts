@@ -23,7 +23,6 @@ sudo pacman -S --noconfirm --needed qt5-quickcontrols
 # :: horizontal etc.
 
 # yay -S --noconfirm --needed damadamas-icon-theme-git
-# yay -S --noconfirm --needed papirus-icon-theme
 yay -S --noconfirm --needed xcursor-breeze
  
 echo
@@ -39,6 +38,22 @@ sudo cp -r ~/MEGA/Sync/9_icons/* /usr/share/icons/
 sudo mkdir /usr/share/wallpapers
 sudo cp -r ~/MEGA/Sync/Wallpapers/Wallpapers_Synthwave/* /usr/share/wallpapers/
 
+if [ -f /home/scott/.xinitrc ]; then
+    rm -f /home/scott/.xinitrc
+fi
+
+if [ -f /home/scott/.config/Trolltech.conf ]; then
+    rm -f /home/scott/.config/Trolltech.conf
+fi
+
+ln -s ~/MEGA/.xinitrc /home/scott/
+ln -s ~/MEGA/.config/Trolltech.conf /home/scott/
+
+echo "QT_QPA_PLATFORMTHEME=qt5ct" | sudo tee -a /etc/environment
+
+sudo cp -ap ~/MEGA/.config/gtk-3.0 /root/.config/
+# May need to copy Trolltech.conf to /root/.config/ as well
+
 echo
 echo ":::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::"
 echo "::: Use lightdm greeter settings to configure. ::::::::::::::::::::::::::"
@@ -48,14 +63,14 @@ echo
 # change theme with lxappearance
 # then change lightdm them with lightdm-gtk-greeter-settings-pkexec
  
-# Appearance / Theme			/ Arc-Numix-Dark
-# Appearance / Icons			/ DamDamas
-# Appearance / Font			/ Sans Regular 10 
-# Appearance / Image			/ /usr/share/wallpapers/earth-view...
+# Appearance / Theme			/ Sweet-Dark
+# Appearance / Icons			/ candy-icons
+# Appearance / Font			/ Noto Sans Regular 10 
+# Appearance / Image			/ /usr/share/wallpapers/Wallpapers_Synthwave
 # Appearance / Colour			/ Black
 # Appearance / Use wallpape		/ Yes
 # Appearance / Use image		/ Yes
-# Appearance / Icon			/ /usr/share/icons/Papirus/48x48
+# Appearance / Icon			/ /usr/share/icons/candy-icons/48x48
 
 # Clock format: %a,%H:%M
 
