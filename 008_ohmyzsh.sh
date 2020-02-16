@@ -10,10 +10,6 @@ sleep 2
 
 sudo pacman -Sy
 
-sudo pacman -S --noconfirm --needed curl
-sudo pacman -S --noconfirm --needed wget
-sudo pacman -S --noconfirm --needed zsh
-
 #sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)
 
 sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh | sed "s/env zsh//g")"
@@ -24,15 +20,15 @@ sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/i
 #sh install.sh
 
 if [ -f ~/.zshrc ]; then
-	rm -f ~/.zshrc
+    rm -f ~/.zshrc
 fi
 
 if [ ! -e ~/.zscrc ]; then
-	ln -s ~/MEGA/.zshrc /home/scott/
+    ln -s ~/MEGA/.zshrc /home/scott/
 fi
 
 if [ -f ~/.zshrc.pre-oh-my-zsh ]; then
-	rm -f ~/.zshrc.pre-oh-my-zsh
+    rm -f ~/.zshrc.pre-oh-my-zsh
 fi
 
 sudo chsh scott -s /usr/bin/zsh

@@ -19,39 +19,42 @@ sudo pacman -S --noconfirm --needed i3lock-color
 
 
 # supporting packages for immediate i3 functionality
-sudo pacman -S --noconfirm --needed acpi
-sudo pacman -S --noconfirm --needed calcurse
-sudo pacman -S --noconfirm --needed cmus
-sudo pacman -S --noconfirm --needed dmenu
-sudo pacman -S --noconfirm --needed dunst
-sudo pacman -S --noconfirm --needed evince
-sudo pacman -S --noconfirm --needed feh
-sudo pacman -S --noconfirm --needed firefox
-sudo pacman -S --noconfirm --needed glances
-sudo pacman -S --noconfirm --needed htop
-sudo pacman -S --noconfirm --needed imagemagick
-sudo pacman -S --noconfirm --needed lm_sensors
-sudo pacman -S --noconfirm --needed lsd
-sudo pacman -S --noconfirm --needed man-db
-sudo pacman -S --noconfirm --needed man-pages
-sudo pacman -S --noconfirm --needed mlocate
-sudo pacman -S --noconfirm --needed neofetch
-sudo pacman -S --noconfirm --needed ranger
-sudo pacman -S --noconfirm --needed rxvt-unicode
-sudo pacman -S --noconfirm --needed thunar
-sudo pacman -S --noconfirm --needed thunar-archive-plugin
-sudo pacman -S --noconfirm --needed thunar-volman
-sudo pacman -S --noconfirm --needed gvfs
-sudo pacman -S --noconfirm --needed scrot
-sudo pacman -S --noconfirm --needed syncthing
-sudo pacman -S --noconfirm --needed sysstat
-sudo pacman -S --noconfirm --needed tmux
-sudo pacman -S --noconfirm --needed tree
-sudo pacman -S --noconfirm --needed vim
-sudo pacman -S --noconfirm --needed xorg-xbacklight
+sudo pacman -S --noconfirm --needed acpi # client for battery, power and thermal readings
+sudo pacman -S --noconfirm --needed calcurse # a text based personal organiser
+sudo pacman -S --noconfirm --needed cmus # ncurses-based music player
+sudo pacman -S --noconfirm --needed compton # x compositor
+sudo pacman -S --noconfirm --needed curl # a url retrieval utility
+sudo pacman -S --noconfirm --needed dmenu # dynamic menu
+sudo pacman -S --noconfirm --needed dunst # notification daemon
+sudo pacman -S --noconfirm --needed feh # image viewer
+sudo pacman -S --noconfirm --needed firefox # web browser
+sudo pacman -S --noconfirm --needed htop # monitoring tool and interactive process viewer
+sudo pacman -S --noconfirm --needed lm_sensors # temperature monitoring sensors
+sudo pacman -S --noconfirm --needed lsd # better version of the ls command
+sudo pacman -S --noconfirm --needed man-db # a utility for reading man pages
+sudo pacman -S --noconfirm --needed man-pages # Linux man pages
+sudo pacman -S --noconfirm --needed mlocate # a merge of locate and updatedb
+sudo pacman -S --noconfirm --needed neofetch # system information tool
+sudo pacman -S --noconfirm --needed ranger # command line file manager
+sudo pacman -S --noconfirm --needed rofi # a program switcher
+sudo pacman -S --noconfirm --needed rxvt-unicode # terminal emualtor
+sudo pacman -S --noconfirm --needed thunar # gui file mangager
+sudo pacman -S --noconfirm --needed thunar-archive-plugin # create and extact archives in thunar
+sudo pacman -S --noconfirm --needed thunar-volman # managemant of removable media in thunar
+sudo pacman -S --noconfirm --needed gvfs # file manager funcitonality
+sudo pacman -S --noconfirm --needed scrot # screenshot utility
+sudo pacman -S --noconfirm --needed syncthing # syncronisation tool
+sudo pacman -S --noconfirm --needed sysstat # a collection of performance monitoring tools
+sudo pacman -S --noconfirm --needed tmux # terminal multiplexor
+sudo pacman -S --noconfirm --needed tree # a graphical directory tree analyzer
+sudo pacman -S --noconfirm --needed vim # text editor
+sudo pacman -S --noconfirm --needed w3m # text based web browser
+sudo pacman -S --noconfirm --needed wget # network utility to retrieve files from the web
+sudo pacman -S --noconfirm --needed xorg-xbacklight # backligh contol application
+sudo pacman -S --noconfirm --needed zsh # a shell interpreter
 
 
-sudo pacman -S --noconfirm --needed lightdm
+sudo pacman -S --noconfirm --needed lightdm # a login display manager and tools
 sudo pacman -S --noconfirm --needed lightdm-gtk-greeter
 sudo pacman -S --noconfirm --needed lightdm-gtk-greeter-settings
 

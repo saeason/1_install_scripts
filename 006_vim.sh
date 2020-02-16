@@ -35,6 +35,14 @@ sudo pacman -S --noconfirm --needed xdg-utils
 
 sudo npm -g install instant-markdown-d
 
+cp -R ~/MEGA/Sync/st /home/scott/
+
+echo
+echo "::::::::::::::::::::::::::::::::::::::::::::::::::::::::;::::::::::::::::::::::::"
+echo "st terminal copied to home directory, cd into the st folder and sudo make install"
+echo ":::::::::::::::::::::::::::::::::::::::::::::::::::::::;:::::::::::::::::::::::::"
+echo
+
 echo
 echo ":::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::"
 echo "::: vimrc files successfully linked to the /home directory. :::::::::::::"

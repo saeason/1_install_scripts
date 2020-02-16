@@ -18,11 +18,12 @@ sudo pacman -S --noconfirm --needed qt5ct
 sudo pacman -S --noconfirm --needed qt5-styleplugins
 sudo pacman -S --noconfirm --needed qt5-quickcontrols
 
+# yay -S --noconfirm --needed damadamas-icon-theme-git
+
 # When installing damadamas icons it will ask:
 # [ ] horizontal or [ ] vertical etc just type the following:
 # :: horizontal etc.
 
-# yay -S --noconfirm --needed damadamas-icon-theme-git
 yay -S --noconfirm --needed xcursor-breeze
  
 echo
