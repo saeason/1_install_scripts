@@ -28,6 +28,7 @@ sudo pacman -S --noconfirm --needed dmenu # dynamic menu
 sudo pacman -S --noconfirm --needed dunst # notification daemon
 sudo pacman -S --noconfirm --needed feh # image viewer
 sudo pacman -S --noconfirm --needed firefox # web browser
+sudo pacman -S --noconfirm --needed galculator # calculator
 sudo pacman -S --noconfirm --needed htop # monitoring tool and interactive process viewer
 sudo pacman -S --noconfirm --needed lm_sensors # temperature monitoring sensors
 sudo pacman -S --noconfirm --needed lsd # better version of the ls command
@@ -51,6 +52,7 @@ sudo pacman -S --noconfirm --needed vim # text editor
 sudo pacman -S --noconfirm --needed w3m # text based web browser
 sudo pacman -S --noconfirm --needed wget # network utility to retrieve files from the web
 sudo pacman -S --noconfirm --needed xorg-xbacklight # backligh contol application
+sudo pacman -S --noconfirm --needed xclip # command line interface to the clipboard
 sudo pacman -S --noconfirm --needed zsh # a shell interpreter
 
 
